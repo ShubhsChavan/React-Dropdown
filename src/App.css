@@ -1,0 +1,41 @@
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+ 
+}
+.app{
+  background-color: rgb(83, 237, 211);
+  padding: 4rem;
+}
+.button{
+  width: 70%;
+  padding: 15px 0px 10px 0px;
+  font-size: 20px;
+  text-align: left;
+  padding-left: 15px; 
+  background: transparent;
+  background-color: azure;
+  cursor: pointer;
+  border: none;
+  display: flex
+}
+.button span{
+  align-self: center;
+  margin-left: 5px;
+  
+} 
+
+.items button{
+  border: none;
+  padding: 10px 10px 10px 15px;
+  font-size: 20px;
+  display: block;
+  background: transparent;
+  cursor: pointer;
+}
+.items{
+  margin-top: 10px;
+  background-color: azure;
+}
